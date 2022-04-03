@@ -9,7 +9,7 @@
 }
 body {
     font-family: var(--main-font);
-    background-color: #FFFFFF;
+    background-color: var(--light-color-text);
 }
 .list{
     list-style: none;
@@ -20,7 +20,6 @@ body {
 }
 /*-------------Components-------------*/
 .title{
-    font-family: var(--main-font);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -30,7 +29,6 @@ body {
     color: var(--light-color-text);
 }
 .subtitle{
-    font-family: var(--main-font);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -39,7 +37,6 @@ body {
     color: var(--base-color-text);
 }
 .caption{
-    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -47,7 +44,6 @@ body {
     color: var(--base-color-text);
 }
 .base-text{
-    font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -68,7 +64,6 @@ body {
     color: var(--color-accent);
 }
 .menu-link{
-    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -79,7 +74,6 @@ body {
     color: var(--color-accent);
 }
 .contact-mail, .contact-phone{
-    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
@@ -109,7 +103,6 @@ body {
 /*-------------/Главный герой-------------*/
 /*-------------Наши преимущества-------------*/
 .advantages-head{
-    font-family: var(--main-font);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -130,7 +123,6 @@ body {
     background-color: #2F303A;
 }
 .location{
-    font-family: var(--main-font);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;  
@@ -151,7 +143,6 @@ body {
 }
 .contact-info-mail,
 .contact-info-phone {
-    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -174,7 +165,6 @@ body {
     background-color: #FFFFFF;
 }
 .portfolio-title{
-    font-family: var(--main-font);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -182,7 +172,6 @@ body {
     color: var(--base-color-text);
 }
 .portfolio-desc{
-    font-family: var(--main-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
@@ -190,7 +179,6 @@ body {
     color: var(--secondary-color-text);
 }
 .portolio-btn{
-    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
